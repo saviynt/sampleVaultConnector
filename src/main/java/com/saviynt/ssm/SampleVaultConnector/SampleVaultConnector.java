@@ -512,7 +512,7 @@ public class SampleVaultConnector extends VaultConnectorSpecification {
 		log.debug("In test method()");
 		Map responseMap = new HashMap();
 		/* Implement Test connectivity then return as per target response.
-		For demo, we are returning as "status" as "true" here */
+		For demo, we are returning "status" as "true" here */
 		responseMap.put("status", true);
 		log.debug("Exit method()");
 		return responseMap;
