@@ -506,12 +506,16 @@ public class SampleVaultConnector extends VaultConnectorSpecification {
 	
 	/**
 	 * This method is used to test the connection with the vault.
-	 * Note - This is for future implementation and must be ignored for now.
 	 */
 	public Map test(Map<String, Object> vaultConfigData, Map<String, Object> data) throws ConnectorException,
 			InvalidCredentialException, InvalidAttributeValueException, OperationTimeoutException, MissingKeyException {
-		// This is for future implementation and must be ignored for now.
-		return null;
+		log.debug("In test method()");
+		Map responseMap = new HashMap();
+		/* Implement Test connectivity then return as per target response.
+		For demo, we are returning as "status" as "true" here */
+		responseMap.put("status", true);
+		log.debug("Exit method()");
+		return responseMap;
 	}
 
 	
