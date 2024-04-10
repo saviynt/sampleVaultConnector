@@ -1,4 +1,4 @@
-# Custom Vault Connector
+## Custom Vault Connector
 
 The `SampleVaultConnector` provides a custom vault connector implementation for managing secrets within a vault, extending the capabilities of the Saviynt Security Manager (SSM). This connector implements essential methods such as `getSecret()`, `setSecret()`, `displayName()`, `version()`, and `setVaultConfig()`, alongside an optional `dataFormatting()` method for additional data manipulation.
 
